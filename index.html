@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alucar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <h1>AluCar</h1>
+         <section>
+            <p>AluCar <br> Aluguel de Carros</p>
+        </section>
+    </header>
+    <main>
+        <div class="sobre-nos">
+            <div class="texto-sobre-nos">
+                <h2>Sobre nós</h2>
+                <p>Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. 
+                    Temos os melhores preços e modelos do mercado.</p>
+            </div>
+            <div class="container-carros">
+                <figure>
+                    <img src="img/img1.jpg" alt="Fiat Uno-Vivace" title="Fiat Uno-Vivace">
+                </figure>
+                <figure>
+                    <img src="img/img2.jpg" alt="Frontier" title="Nissan Frontier">
+                </figure>
+                <figure>
+                    <img src="img/img3.jpg" alt="volkswagen Gol" title="Volkswagen Gol">
+                </figure>
+            </div>
+            <div class="descricao-empresa">
+                <p>O compromisso da AluCar é com a qualidade.</p>
+                <p>Os melhores carros estão aqui! </p>
+                <p>Assistência 24hrs.</p>
+            </div>
+        </div>
+
+        <div class="container-contato">
+            <span>contato</span>
+            <div class="texto-cadastro">
+                <h2>Análise de cadastro</h2>
+                <p>Preencha os campos abaixo e analisaremos seus dados.</p>
+                <p>Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
+            </div>
+           
+            <div class="container-tabela-cadastro">
+                <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+                     <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label>Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome" minlength="15" required>
+                        <label>Data de nascimento</label>
+                        <input type="date" name="data de nascimento" required>
+                        <label>Telefone</label>
+                        <input type="tel" name="telefone" placeholder="(xx)xxxx-xxxx" required>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="email@gmail.com" required>
+                     </fieldset>
+                     <fieldset>
+                        <legend>CNH</legend>
+                        <label>Número do registro</label>
+                        <input type="number" name="numero cnh"  placeholder="Informe o numero do registro" required>
+                        <label>Validade</label>
+                        <input type="date" name="data cnh" required >
+                     </fieldset>
+                     <fieldset>
+                        <legend>Carro</legend>
+                        <label>Escolha um carro</label>
+                        <select name="carro" required>
+                            <option value="">Escolha um carro</option>
+                            <optgroup label="volkswagem">
+                                <option value="gol">Gol</option>
+                                <option value="golf">Golf</option>
+                                <option value="polo">Polo</option>
+                                <option value="jetta">Jetta</option>
+                                <option value="virtus">Virtus</option>
+                                <option value="t-cross">T-cross</option>
+                            </optgroup>
+                            <optgroup label="fiat">
+                                <option value="palio">Palio</option>
+                                <option value="uno-vivace">Uno-Vivace</option>
+                                <option value="fiorino">Fiorino</option>
+                                <option value="strada">Strada</option>
+                                <option value="fiat-toro">Fiat-toro</option>
+                                <option value="fiat-mobi">Fiat-mobi</option>
+                            </optgroup>
+                            <optgroup label="chevrolet">
+                                <option value="s10">S10</option>
+                                <option value="vectra">Vectra</option>
+                                <option value="tarock">Tarock</option>
+                                <option value="onix">Onix</option>
+                                <option value="cruzer">Cruzer</option>
+                                <option value="celta">Celta</option>
+                            </optgroup>
+                            <optgroup label="Toyota">
+                                <option value="corolla">Corolla</option>
+                                <option value="toyota-sw4">Toyota-sw4</option>
+                                <option value="etios">Etios</option>
+                                <option value="iris">Iris</option>
+                                <option value="toyota-rav4">Toyota-rav4</option>
+                                <option value="corolla-cross">Corola-cross</option>
+                            </optgroup>
+                        </select>
+
+                     </fieldset>      
+                     <button type="submit">Enviar</button>          
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>Replicado por <a href="https://www.linkedin.com/in/tarcisio-henrique-0376b81a0" target="_blank">Tarcisio H.</a></p>
+        </footer>
+    </main>
+    
+</body>
+</html>
